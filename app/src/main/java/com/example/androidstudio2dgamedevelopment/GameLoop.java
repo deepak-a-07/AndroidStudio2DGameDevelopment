@@ -55,7 +55,7 @@ class GameLoop extends Thread{
                 synchronized (surfaceHolder) {
                     game.update();
                     updateCount++;
-                    
+
                     game.draw(canvas);
                 }
 
